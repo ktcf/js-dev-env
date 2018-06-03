@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "scripts": {
     "prestart": "node buildScripts/startMessage.js",
-    "start": "node buildScripts/srcServer.js"
+    "start": "node buildScripts/srcServer.js",
+    "security-check": "nsp check",
+    "share": "lt --port 3000"
   },
   "license": "MIT",
   "dependencies": {
