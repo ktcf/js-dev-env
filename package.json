@@ -1,7 +1,10 @@
 {
   "name": "js-dev-env",
   "version": "1.0.0",
-  "scripts": {},
+  "scripts": {
+    "prestart": "node buildScripts/startMessage.js",
+    "start": "node buildScripts/srcServer.js"
+  },
   "license": "MIT",
   "dependencies": {
     "whatwg-fetch": "1.0.0"
